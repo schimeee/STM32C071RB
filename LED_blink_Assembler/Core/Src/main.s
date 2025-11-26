@@ -1,3 +1,5 @@
+@ In the startup_stm32c071rbtx.s 'b SystemIniti' needs to be commented
+
 .syntax unified
 .cpu cortex-m0plus
 .thumb
