@@ -7,6 +7,11 @@
 ## Repository structure
 
 ```
+GPIO_Assembler/
+└─ Core/
+   └─ Src/
+      └─ main.s     <- Example main program file for GPIO in Assembly
+
 GPIO_baremetal/
 └─ Core/
    └─ Src/
@@ -16,6 +21,11 @@ GPIO_HAL/
 └─ Core/
    └─ Src/
       └─ main.c     <- Example main program file for GPIO
+
+LED_blink_Assembler/
+└─ Core/
+   └─ Src/
+      └─ main.s     <- Example main program file for toggling an LED
 
 VirtComPort_Example/
 └─ Core/
